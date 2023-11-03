@@ -399,6 +399,10 @@ body {
     max-width: 290px;
     letter-spacing: 0.01em;
   }
+  .title-h1 {
+    font-size: calc(48 / 500 * 100vw);
+    max-width: calc(320 / 500 * 100vw);
+  }
   .title-h2 {
     font-size: 50px;
     white-space: nowrap;
@@ -423,6 +427,12 @@ body {
     -webkit-transform: translateY(3rem);
     -ms-transform: translateY(3rem);
     transform: translateY(3rem);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .title-h1 {
+    font-size: 42px;
+    max-width: 290px;
   }
 }
 @media only screen and (max-width: 400px) {
